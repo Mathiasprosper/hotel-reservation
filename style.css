@@ -1,0 +1,73 @@
+#comfortCompany{
+    margin: 6px 550px;
+    padding: 40px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5px 1px white;
+    background-color: white;
+    opacity: 0.9;
+    font-size: larger;    
+    font-weight: 800;
+}
+nav img{
+    padding-left: 50px;
+    width: 100px;
+    height: 70px;
+}
+.title h1{
+    padding-left: 580px;
+    color: brown;
+    font-size: 50px;
+}
+#next{
+    padding: 10px 10px 10px 10px;
+    margin-left: 750px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+body{
+   background-image: url(pexels-pixabay-261169.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message{
+    color: red;
+}
+#firstName{
+    padding: 10px 80px 10px 80px;
+    margin-left: 20px;
+}
+#lastName{
+    padding: 10px 80px 10px 80px;
+    margin-left: 20px;
+}
+#Address{
+    padding: 10px 80px 10px 80px;
+    margin-left: 20px;
+}
+#phone{
+    padding: 10px 80px 10px 80px;
+    margin-left: 20px;
+}
+#email{
+    padding: 10px 80px 10px 80px;
+    margin-left: 20px;
+}
+#inHouse{
+    padding: 10px 85px 10px 85px;
+    margin-left: 20px;
+}
+#out{
+    padding: 10px 85px 10px 85px;
+    margin-left: 20px;
+}
+#roomType{
+    padding: 10px 23px 10px 23px;
+    margin-left: 20px;
+}
+#lodging{
+    padding: 10px 80px 10px 80px;
+    margin-left: 20px;
+}

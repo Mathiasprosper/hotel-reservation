@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="banner"></div>
+    <nav>
+        <img src="https://www.performancehealth.co.uk/media/wysiwyg/home/landingpages/partners/comfort-company-logo-sm.jpg" alt="">
+    </nav><br>
+    <div class="title">
+        <h1>Comfort Company</h1>
+    </div>
+    <form id="comfortCompany">
+        <div>
+            <div>
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" >
+                <span id="firstNameText" class="message"></span>
+            </div><br>
+            <div>
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" >
+                <span id="lastNameText" class="message"></span>
+            </div>
+            <br>
+            <div>
+                <label for="address">Enter your home address</label>
+                <input type="text" id="Address" >
+                <span id="address" class="message"></span>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Enter mobile number</label>
+                <input type="number" id="phone" minlength="11" maxlength="11" >
+                <span id="phoneNumber" class="message"></span>
+            </div>
+            <br>
+            <div>
+                <label for="email">Enter email address</label>
+                <input type="email" id="email" >
+                <span id="emailText" class="message"></span>
+            </div>
+        </div>
+        <br>
+        <div class="reservation">
+            <div class="day">
+                <div id="check-in">
+                    <label for="checkIn">Enter check in-date</label>
+                    <input type="datetime-local" id="inHouse">
+                    <span id="inRoom" class="coming"></span>
+                    
+                </div>
+                <br>
+                <div id="check-out">
+                    <label for="checkOut">Enter check-out date</label>
+                    <input type="datetime-local" id="out">
+                    <span id="outRoom" class="going"></span>
+                </div>
+
+                <div id="result"></div>
+                <br>
+            </div>
+
+
+
+            <div class="select">
+                <label for="rooms">Select room type</label>
+                <select name="roomInterest" id="roomType">
+                    <option id="Suite">Suite (price : 50,000 naira)</option>
+                    <option id="Studio">Studio (price : 70,000 naira)</option>
+                    <option value="Presidential suite">Presidential suite (price : 200,000 naira)</option>
+                    <option value="Penthouse`">Penthouse (price : 50,000 naira)</option>
+                    <option value="Executive suite">Executive suite (price : 150,000 naira)</option>
+                    <option value="Hospitality suite">Hospitality suite (price : 85,000 naira)</option>
+                    <option value="Standard suite rooms">Standard suite rooms (price : 100,000 naira)</option>
+                    <option value="Parlor">Parlor (price : 50,000 naira)</option>
+                    <option value="Quadriple room">Quadriple room (price : 170,000 naira)</option>
+                    <option value="Balcony room in hotel">Balcony room in hotel (price : 100,000 naira)</option>
+                    <option value="Double room in hotel">Double room in hotel (price : 150,000 naira)</option>
+                </select>
+            </div>
+            <br>
+            <div class="number">
+                <label for="number">Number of people lodging in</label>
+                <input type="number" value="" id="lodging">
+                <span id="lodgers" class="message"></span>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div id="summary">
+            <span id="summarize" class="shortNote"></span>
+        </div>
+
+        
+    </form>
+
+    <input type="submit" id="next" onclick = "reservation()">
+   
+
+    <script src="main.js"></script>
+</body>
+</html>   
